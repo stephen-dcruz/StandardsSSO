@@ -12,48 +12,38 @@ const IndexPage = () => (
 
     <div class="panel-login position1">
       <div class="panel-heading1 panel-heading-font" >
-        <h3>Unilever Login</h3>
+        <h2>Unilever Login</h2>
       </div>
-      <h2 class="panel-font1">
-        <b>Unilever user?</b>
-      </h2>
-      <h3>
-        <b>You can access Eva using your Unilever ID</b>
-      </h3>
-      <a href="#standards-site" class="btn-login panel1-btn">
-        <b>Login</b>
-      </a>
+      <h2 class="panel-font1"></h2>
+        <h3>Unilever user?</h3>
+      
+        <p>You can access standards site using your Unilever ID.
+          To do this click the log in button below 
+        </p>
+      <a  class="btn-login panel1-btn"><><Link to="/regression">Login</Link></></a>
     </div>
 
   
-    <div class="panel-login position2">
-    <div class="panel-heading2 panel-heading-font" >
-          <h3>Non-Unilever Login</h3>
-      </div>
-      <div class="">
-          <b>Non-Unilever members sign in below :</b>
-      </div>
-      <form>
-      <div class="form-container">
-          <input type="text" placeholder="Enter Username" name="uname" required>
-        </input>
-        
-      </div>
-      <div class="form-container">
-        <input type="text" placeholder="Password" name="pwrd" required>
-        </input>
-      </div>
-      </form>
-      <a href="#standards-site" class="btn-login panel2-btn">
-        <b>Login</b>
-      </a>
-
+      <div class="panel-login position2">
+      <div class="panel-heading2 panel-heading-font" >
+            <h2>Non-Unilever Login</h2>
+        </div>
+        <div class="">
+            <h3>Non-Unilever members sign in below :</h3>
+        </div>
+        <form>
+        <div class="form-container">
+            <input type="text" placeholder="Enter Username" name="uname" required>
+          </input>
+          
+        </div>
+        <div class="form-container">
+          <input type="text" placeholder="Password" name="pwrd" required>
+          </input>
+        </div>
+        <a  class="btn-login panel1-btn"><><Link to="/regression">Login</Link></></a>
+        </form>
        </div>
-
-
-    
-
-
     </div>
 
   </Layout>
