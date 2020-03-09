@@ -32,16 +32,16 @@ const IndexPage = () => (
             <h3>Non-Unilever members sign in below :</h3>
         </div>
         <form>
-        <div class="form-container">
+        <div class="usrnm-pos">
             <input type="text" placeholder="Enter Username" name="uname" required>
           </input>
           
         </div>
-        <div class="form-container">
+        <div class="pswrd-pos">
           <input type="text" placeholder="Password" name="pwrd" required>
           </input>
         </div>
-        <a  class="btn-login panel1-btn"><><Link to="/regression">Login</Link></></a>
+        <a  class="btn-login panel2-btn"><><Link to="/regression">Login</Link></></a>
         </form>
        </div>
     </div>

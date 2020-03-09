@@ -60,12 +60,14 @@ text-align: left;
 .panel-font1{
   font-size:27px;
 }
-.form-container{
-  
+input[type=text] {
+  width: 493px;
+  height: 30px;
   display: block;
   padding: 10px 15px;
-  background-color: #f7f7ef;
+  background-color:#FFFFFF;
   border: none;
+  align-content: center;
 }
 .position1{
 width: 555px;
@@ -73,12 +75,6 @@ height: 340px;
 float:left;
 left: 0%;
 transform: translate(-1px, -1px);
-
-  /* position:absolute;
-  bottom: 416px;
-  right: 845px;
-  width: 446px;
-  display:inline-block; */
 }
 
 .position2{
@@ -86,14 +82,6 @@ width: 555px;
 height: 340px;
 float:left;
 transform: translate(45px, -1px);
-
-
-  /* position:absolute;
-  bottom: 422px;
-  right: 63px;
-  width: 446px;
-  display:inline-block; */
-
 }
 @media screen and (max-width: 1200px) {
   .login-section {
@@ -101,8 +89,14 @@ transform: translate(45px, -1px);
   }
 }
 .panel1-btn{
-  transform: translate(0px, 144px);
+  transform: translate(0px, 75px);
 }
 .panel2-btn{
-  transform: translate(0px, 148px);
+  transform: translate(0px, 42px);
+}
+.usrnm-pos{
+  transform: translate(10px, -10px);
+}
+.pswrd-pos{
+  transform: translate(10px, 10px);
 }
