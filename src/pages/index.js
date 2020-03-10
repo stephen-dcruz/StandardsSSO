@@ -17,8 +17,7 @@ const IndexPage = () => (
       <h2 class="panel-font1"></h2>
         <h3>Unilever user?</h3>
       
-        <p>You can access standards site using your Unilever ID.
-          To do this click the log in button below 
+        <p>You can access standards site using your Unilever ID through single sign on by clicking the button below.
         </p>
       <a  class="btn-login panel1-btn"><><Link to="/regression">Login</Link></></a>
     </div>
@@ -29,7 +28,7 @@ const IndexPage = () => (
             <h2>Non-Unilever Login</h2>
         </div>
         <div class="">
-            <h3>Non-Unilever members sign in below :</h3>
+            <h3>Non-Unilever members sign in below using your given username and password :</h3>
         </div>
         <form>
         <div class="usrnm-pos">
@@ -38,14 +37,15 @@ const IndexPage = () => (
           
         </div>
         <div class="pswrd-pos">
-          <input type="text" placeholder="Password" name="pwrd" required>
-          </input>
+          <input type="text" placeholder="Password" name="pwrd" required></input>
         </div>
+        
         <a  class="btn-login panel2-btn"><><Link to="/regression">Login</Link></></a>
         </form>
+        <div className="test"><Link to="/page-2">forgotton Password</Link></div>
        </div>
     </div>
-
+    
   </Layout>
 )
 
