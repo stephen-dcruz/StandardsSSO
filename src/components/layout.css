@@ -83,11 +83,16 @@ height: 340px;
 float:left;
 transform: translate(45px, -1px);
 }
+
 @media screen and (max-width: 1200px) {
   .login-section {
   width: 100%;
+      }
+  .position2{
+    transform: translate(0px, 20px); 
+      }
   }
-}
+
 .panel1-btn{
   transform: translate(0px, 75px);
 }
