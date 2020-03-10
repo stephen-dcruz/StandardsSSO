@@ -18,8 +18,8 @@ p{
 }
 .login-section{
 width: 1280px;
-overflow: hidden;
 padding-bottom: 90px;
+height: 30vh;
 left: 0%;
 margin: 0%;
 text-align: left;
@@ -71,7 +71,7 @@ input[type=text] {
 }
 .position1{
 width: 555px;
-height: 340px;
+height: 380px;
 float:left;
 left: 0%;
 transform: translate(-1px, -1px);
@@ -94,14 +94,21 @@ transform: translate(45px, -1px);
   }
 
 .panel1-btn{
-  transform: translate(0px, 75px);
+  transform: translate(0px, 114px);
 }
 .panel2-btn{
-  transform: translate(0px, 42px);
+  transform: translate(0px, 22px);
 }
 .usrnm-pos{
-  transform: translate(10px, -10px);
+  padding: 0.5em;
+  margin: 0.25em;
 }
 .pswrd-pos{
-  transform: translate(10px, 10px);
+  padding: 0.5em;
+  margin: 0.25em;
+}
+.test{
+  text-align: right;
+  margin-top: 5px;
+  margin-right: 1em;
 }
