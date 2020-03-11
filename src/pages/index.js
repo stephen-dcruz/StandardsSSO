@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import authentication from "../components/authentication"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
@@ -31,18 +31,18 @@ const IndexPage = () => (
             <h3>Non-Unilever members sign in below using your given username and password :</h3>
         </div>
         <form>
-        <div class="usrnm-pos">
+        <div class="usrnm-pos" id="username">
             <input type="text" placeholder="Enter Username" name="uname" required>
           </input>
           
         </div>
-        <div class="pswrd-pos">
+        <div class="pswrd-pos" id="password">
           <input type="text" placeholder="Password" name="pwrd" required></input>
         </div>
         
-        <a  class="btn-login panel2-btn"><><Link to="/regression">Login</Link></></a>
+        <a class="btn-login panel2-btn"><><Link onClick="getLogin()" >Login</Link></></a>
         </form>
-        <div className="test"><Link to="/page-2">forgotton Password</Link></div>
+        <div className="test"><Link to="/page-2">Forgotton Password</Link></div>
        </div>
     </div>
     
